@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Projects"
-    url: /projects/
+    url: https://yifnzhao.github.io/projects/
 
 #  - title: "Talks"
 #    url: /talks/
@@ -16,10 +16,10 @@ main:
   #  url: /year-archive/
 
   - title: "CV"
-    url: /cv/
+    url: https://yifnzhao.github.io/cv
 
  # - title: "Guide"
  #   url: /markdown/
 
   - title: "Contact"
-    url: /contact/ 
+    url: https://yifnzhao.github.io/contact/ 
