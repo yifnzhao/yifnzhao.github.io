@@ -13,7 +13,7 @@ redirect_from:
 </p>
 
 
-* I am an undergraduate student studying [Joint Honours in Computer Science and Biology](http://biology.mcgill.ca/undergrad/jointmajor_compbiol.html) at [McGill University](https://mcgill.ca/). [[Curriculum Vitae](http://yifnzhao.github.io./files/yifanzhao_cv.pdf)]
+* I am an undergraduate student studying Joint Honours in Computer Science and Biology at McGill University. [[Curriculum Vitae](http://yifnzhao.github.io./files/yifanzhao_cv.pdf)]
 
 * I expect to receive my Bachelor’s Degree in June 2020. My undergraduate research advisors are Prof. [Abigail Gerhold](https://www.gerholdlab.net/people), Prof. [Yojiro Yamanaka](https://mcgillgcrc.com/research/members/yamanaka) and Prof. [Uri David Akavia](https://www.mcgill.ca/biochemistry/about-us/department/faculty-members/uri-david-akavia).
 
