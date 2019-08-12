@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
+<p align="left">
   <img src="https://yifnzhao.github.io/files/yifanzhao_profile.JPG?raw=true" alt="Photo" style="width: 250px;"/>
 </p>
 
