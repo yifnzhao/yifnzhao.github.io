@@ -1,5 +1,5 @@
 ---
-permalink: https://yifnzhao.github.io/
+permalink: /
 title: "About Me"
 excerpt: "About Me"
 author_profile: true

@@ -4,8 +4,8 @@ Name Name:
   name        : "Yifan Zhao"
   url         : "https://yifnzhao.github.io/"
   email       : "yifan.zhao@mail.mcgill.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
+  bio         : 
+  avatar      : "yifanzhao_profile.JPG"
   #twitter     : "name"
   #google_plus : "Name"
 
