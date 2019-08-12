@@ -8,11 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<p align="left">
-  <img src="https://yifnzhao.github.io/files/yifanzhao_profile.JPG?raw=true" alt="Photo" style="width: 250px;"/>
-</p>
-
-
 * I am an undergraduate student studying Joint Honours in Computer Science and Biology at McGill University. [[Curriculum Vitae](http://yifnzhao.github.io./files/yifanzhao_cv.pdf)]
 
 * I enjoy writing Python, Java, C++, MATLAB and Bash scripts. My research interests lie in the general area of computational biology, particularly in quantitative bio-image computation and high-throughput genomics, as well as the development and application of machine learning and statistical learning to solve computational biology problems and answering new biological questions.
