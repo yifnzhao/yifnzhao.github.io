@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <p align="center">
-  <img src="https://yifanzhao.github.io/files/yifnzhao_profile.JPG?raw=true" alt="Photo" style="width: 450px;"/>
+  <img src="https://yifnzhao.github.io/files/yifanzhao_profile.JPG?raw=true" alt="Photo" style="width: 450px;"/>
 </p>
 
 
