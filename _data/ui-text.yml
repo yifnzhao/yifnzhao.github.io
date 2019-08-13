@@ -22,7 +22,7 @@ en: &DEFAULT_EN
   more_label                 : "Learn More"
   related_label              : "You May Also Enjoy"
   follow_label               : "Follow:"
-  feed_label                 : "Feed"
+  feed_label                 :
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
@@ -70,7 +70,7 @@ es: &DEFAULT_ES
   more_label                 : "Ver más"
   related_label              : "Podrías ver también"
   follow_label               : "Seguir:"
-  feed_label                 : "Feed"
+  feed_label                 : 
   powered_by                 : "Powered by"
   website_label              : "Sitio web"
   email_label                : "Email"
@@ -202,7 +202,7 @@ pt: &DEFAULT_PT
   more_label                 : "Aprenda Mais"
   related_label              : "Talvez Você Goste Também"
   follow_label               : "Acompanhe em"
-  feed_label                 : "Feed"
+  feed_label                 :
   powered_by                 : "Feito por"
   website_label              : "Site"
   email_label                : "E-mail"
@@ -246,7 +246,7 @@ it: &DEFAULT_IT
   more_label                 : "Scopri di più"
   related_label              : "Potrebbe Piacerti Anche"
   follow_label               : "Segui:"
-  feed_label                 : "Feed"
+  feed_label                 :
   powered_by                 : "Powered by"
   website_label              : "Website"
   email_label                : "Email"
