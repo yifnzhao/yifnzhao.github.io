@@ -1,7 +1,7 @@
 # main links links
 main:
-  - title: "Projects"
-    url: /projects/
+  - title: "Research"
+    url: /research/
 
 #  - title: "Talks"
 #    url: /talks/
@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Awards"
-    url: /awards/
+#  - title: "Awards"
+#    url: /awards/
 
   - title: "Contact"
     url: /contact/
