@@ -5,7 +5,6 @@ permalink: /teaching/
 author_profile: true
 ---
 
-# Teaching
 
 ## Undergraduate Teaching Assistant, McGill University
 * MATH 324 Statistics (Winter 2019)
