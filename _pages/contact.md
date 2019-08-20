@@ -5,7 +5,6 @@ permalink: /contact/
 author_profile: true
 ---
 
-Email: yifan.zhao@mail.mcgill.ca
 
 Email:
 
