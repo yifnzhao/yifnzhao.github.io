@@ -6,7 +6,7 @@ main:
 #  - title: "Talks"
 #    url: /talks/
 
- # - title: "Teaching"
+#   - title: "Teaching"
  #   url: /teaching/
 
   #- title: "Resume"
@@ -17,6 +17,10 @@ main:
 
   - title: "CV"
     url: /cv/
+    
+  - title: "Teaching"
+    url: /teaching/
+ 
 
 #  - title: "Awards"
 #    url: /awards/
