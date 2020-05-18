@@ -7,5 +7,5 @@ author_profile: true
 
 
 Email:
-     zyf[at]mit.edu
+     zyf [at] mit.edu
 
