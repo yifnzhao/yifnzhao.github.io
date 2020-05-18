@@ -1,13 +1,13 @@
 # main links links
 main:
-#  - title: "Research"
-#    url: /research/
+ - title: "Research"
+   url: /research/
 
 #  - title: "Talks"
 #    url: /talks/
 
- # - title: "Teaching"
- #   url: /teaching/
+ - title: "Teaching"
+   url: /teaching/
 
   #- title: "Resume"
   #  url: /resume/
@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
 
-#  - title: "Awards"
-#    url: /awards/
+ - title: "Awards"
+   url: /awards/
 
   - title: "Contact"
     url: /contact/
