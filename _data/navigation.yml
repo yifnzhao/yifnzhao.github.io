@@ -18,8 +18,8 @@ main:
   - title: "CV"
     url: /cv/
 
- - title: "Awards"
-   url: /awards/
+#  - title: "Awards"
+#    url: /awards/
 
   - title: "Contact"
     url: /contact/
