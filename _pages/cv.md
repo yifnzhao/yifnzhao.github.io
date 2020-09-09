@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-[Curriculum Vitae [PDF]](http://yifnzhao.github.io/files/yifanzhao_cv.pdf)
+[Curriculum Vitae [PDF]](http://yifnzhao.github.io/files/cv.pdf)
 
 
 
