@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yifan Zhao"
 title_separator          : "-"
 name                     : &name "Yifan Zhao"
-description              : &description "Undergraduate student, Computer Science and Biology, McGill University"
+description              : &description "PhD Student, Medical Engineering and Medical Physics, Harvard-MIT HST"
 url                      : https://yifnzhao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yifnzhao/yifnzhao.github.io"
@@ -79,11 +79,11 @@ analytics:
 author:
   name             : "Yifan Zhao"
   avatar           : "yifanzhao_profile.JPG"
-  bio              : "Undergraduate student, Computer Science and Biology, McGill University"
+  bio              : "PhD student, Medical Engineering and Medical Physics, Harvard-MIT HST"
   location         : "Montréal, Québec"
   employer         :
   googlescholar    :
-  email            : "yifan.zhao@mail.mcgill.ca"
+  email            : "zyf@mit.edu"
   uri              :
   bitbucket        :
   codepen          :
