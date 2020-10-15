@@ -11,4 +11,4 @@ author_profile: true
 * MATH 324 Statistics (Winter 2019)
 
 ### Junior Instructor, University of British Columbia
-*  UBC GEERing Summer Camp (Summer 2016)
+*  UBC Geering Up Summer Camp (Summer 2016)
