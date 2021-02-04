@@ -11,7 +11,7 @@ redirect_from:
 
 [Curriculum Vitae [PDF]](http://yifnzhao.github.io/files/cv.pdf)
 
-
+<embed src="http://yifnzhao.github.io/files/cv.pdf" width="650" height="1800" type="application/pdf" />
 
 
 
