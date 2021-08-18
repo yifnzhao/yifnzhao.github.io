@@ -80,7 +80,7 @@ author:
   name             : "Yifan Zhao"
   avatar           : "yifanzhao_profile.JPG"
   bio              : "PhD student, Medical Engineering and Medical Physics, Harvard-MIT HST"
-  location         : "Montréal, Québec"
+  location         : "Cambridge, Massachusetts"
   employer         :
   googlescholar    :
   email            : "zyf@mit.edu"
@@ -248,7 +248,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Montreal # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Boston # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
