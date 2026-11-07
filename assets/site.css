@@ -817,3 +817,11 @@ main:focus { outline: none; }
 
 /* White project canvas preserves the original figure colours without blending. */
 #projects { background: #ffffff; }
+
+.contact-icons { gap: 12px; }
+.contact-icons a { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); text-decoration: none; }
+.contact-icons svg { width: 21px; height: 21px; }
+.contact-icons a:hover { background: var(--panel); border-color: var(--accent); }
+.contact-icons a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+
+.about-background { background: #edf7f6; }

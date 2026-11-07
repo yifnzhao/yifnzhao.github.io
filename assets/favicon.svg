@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Y-shaped DNA replication fork">
+<rect width="48" height="48" rx="11" fill="#176c70"/>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10.3 10L17.9 10.5" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M12.2 16L19 14.5" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M16.7 21L22.5 20" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M30.1 10.5L37.7 10" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M29 14.5L35.8 16" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M25.5 20L31.3 21" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M22.2 28L25.8 28" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M21.8 34L26.2 34" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M21.7 39L26.3 39" stroke="#91e2dc" stroke-width="2.2"/>
+<path d="M21 41C31 36 18 32 22 26C21 20 11 19 10 8" stroke="#fff" stroke-width="2.7"/>
+<path d="M27 41C17 36 30 32 26 26C27 20 37 19 38 8" stroke="#fff" stroke-width="2.7"/>
+<path d="M26 26C22 18 18 17 18 8" stroke="#fff" stroke-width="2.7"/>
+<path d="M22 26C26 18 30 17 30 8" stroke="#fff" stroke-width="2.7"/>
+</g>
+</svg>

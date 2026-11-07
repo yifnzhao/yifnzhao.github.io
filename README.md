@@ -23,3 +23,5 @@ The obsolete Jekyll theme, sample content, build tools, and unused assets have b
 Selected publications include lightweight first-page previews rendered from the publisher PDFs, with links to the full papers. Peter Park’s lab link appears in About Me.
 
 Projects features the Nature brain somatic mosaicism study first, using the publisher’s final main figure (Figure 5) with source and license credits. Diagrams display in their original colours. White and pale blue-gray section backgrounds alternate, with teal accents. Presentations remains accessible through the News archive link.
+
+The Y-shaped DNA replication-fork logo is provided as SVG and PNG, with favicon and Apple touch icon variants. Contact links use accessible inline SVG icons. About Me has a pale teal background that alternates with the white Projects section.
