@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yifan Zhao</title>
+    <meta name="description" content="Yifan Zhao is a computational biologist and postdoctoral fellow at EMBL-EBI, studying somatic mosaicism and the human germline with single-cell genomics.">
+    <meta name="author" content="Yifan Zhao">
+    <meta name="theme-color" content="#fcfaf6">
+    <link rel="canonical" href="https://yifnzhao.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Yifan Zhao">
+    <meta property="og:title" content="Yifan Zhao">
+    <meta property="og:description" content="Yifan Zhao is a computational biologist and postdoctoral fellow at EMBL-EBI, studying somatic mosaicism and the human germline with single-cell genomics.">
+    <meta property="og:url" content="https://yifnzhao.github.io/">
+    <meta property="og:image" content="https://yifnzhao.github.io/images/profile_pic_yifanzhao.jpg">
+    <meta property="og:image:alt" content="Portrait of Yifan Zhao">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="assets/site.css?v=9">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-brand" href="index.html">Yifan Zhao</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html#about" aria-current="page">About</a>
+          <a href="index.html#software">Software</a>
+          <a href="index.html#news">News</a>
+          <a href="events.html">Presentations</a>
+          <a href="publications.html">Publications</a>
+
+          <a href="index.html#gallery">Gallery</a>
+          <a href="music.html">Music</a>
+        </nav>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+<section id="about" class="container intro" aria-labelledby="profile-name">
+  <div class="identity">
+    <img class="portrait" src="images/profile_pic_yifanzhao.jpg" alt="Yifan Zhao" width="184" height="184" />
+    <h1 id="profile-name">Yifan Zhao</h1>
+    <p>Postdoctoral Fellow</p>
+    <p class="affiliation">EMBL-EBI</p>
+    <p class="location">Cambridge, United Kingdom</p>
+  </div>
+  <div class="bio">
+    <h2>About me</h2>
+    <p>I’m a computational biologist studying somatic mutation and clonal fate. My work combines single-cell genomics, statistical modeling, and machine learning to understand how mutations arise and shape the fate of cells.</p>
+    <p>As a postdoctoral fellow at <a href="https://www.ebi.ac.uk/">EMBL-EBI</a>, I work with <a href="https://www.ebi.ac.uk/research/coorens/">Tim H. H. Coorens</a> and <a href="https://www.sanger.ac.uk/group/rahbari-group/">Raheleh Rahbari</a> to investigate mutation and clonal selection in the ageing human male germline, using single-cell genomics to study mutations and their transmission across generations.</p>
+    <p>I completed my PhD at MIT (2020–2025) under the mentorship of <a href="https://compbio.hms.harvard.edu/">Peter J. Park</a>. During my PhD, I developed methods to study mutations in single-cell genomes, focusing on somatic copy-number alterations in the human brain before and after birth. Previously, I earned an Honours BSc in Computer Science and Biology at McGill University (2017–2020).</p>
+    <div class="text-links" aria-label="Contact and profiles">
+      <a href="mailto:yz13@sanger.ac.uk">Email</a>
+      <a href="https://github.com/yifnzhao">GitHub</a>
+      <a href="https://www.linkedin.com/in/yifnzhao/">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section id="software" class="section section--tinted" aria-labelledby="software-title">
+  <div class="container">
+    <div class="section-heading software-heading">
+      <div><p class="eyebrow">Methods &amp; open-source tools</p><h2 id="software-title">Software</h2></div>
+      <p>From single-cell genomes to transcriptomes and live imaging.</p>
+    </div>
+    <div class="software-features"><article class="software-feature" id="hiscanner" aria-labelledby="hiscanner-title">
+      <div class="software-copy">
+        <p class="eyebrow">01 / Single-cell DNA</p>
+        <h3 id="hiscanner-title">HiScanner</h3>
+        <p class="software-headline">Resolving copy-number changes, one cell at a time.</p>
+        <p>High-resolution, allele-specific copy-number analysis from single-cell whole-genome sequencing. HiScanner combines read depth and haplotype information to reveal somatic copy-number alterations and cellular heterogeneity.</p>
+        <div class="text-links project-links">
+          <a href="https://github.com/parklab/HiScanner" aria-label="HiScanner source code">Code</a>
+          <a href="https://doi.org/10.1038/s41467-025-60446-5" aria-label="HiScanner paper">Paper</a>
+          <a href="https://parklab.github.io/ViScanner/">Explore ViScanner &rarr;</a>
+        </div>
+        <details class="workflow">
+          <summary>How it works</summary>
+          <div data-walkthrough>
+            <div class="workflow-steps" data-step-controls hidden role="group" aria-label="HiScanner workflow stages"><button type="button" data-step="prepare" aria-pressed="true">1. Prepare</button>
+<button type="button" data-step="segment" aria-pressed="false">2. Segment</button>
+<button type="button" data-step="interpret" aria-pressed="false">3. Interpret</button></div>
+            <div class="workflow-panel" data-step-panel="prepare"><h4>Combine read depth and allelic information</h4><p>Count reads, correct GC effects, call and phase heterozygous variants, and use allelic dropout to guide bin-size selection.</p></div>
+<div class="workflow-panel" data-step-panel="segment"><h4>Find shared copy-number boundaries</h4><p>Joint segmentation across cells combines read-depth ratios and B-allele frequencies to identify genomic changes.</p></div>
+<div class="workflow-panel" data-step-panel="interpret"><h4>Resolve allelic copy number</h4><p>Infer ploidy and integer copy numbers, then explore profiles and relationships between cells in ViScanner.</p></div>
+          </div>
+        </details>
+      </div>
+      <figure class="software-figure">
+        <a class="expand-image" href="images/hiscanner-figure1.png" data-lightbox data-caption="HiScanner — Figure 1 · Zhao et al., Nature Communications (2025). CC BY 4.0. Created in BioRender, Chun, E. (2025)." aria-label="Enlarge HiScanner figure">
+          <img src="images/hiscanner-figure1.png" alt="HiScanner Figure 1: preprocessing, allelic dropout analysis, joint segmentation, and allele-specific copy-number calling." width="2000" height="1446" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View figure <span>↗</span></span>
+        </a>
+        <figcaption>Figure 1 · Zhao et al., <cite>Nature Communications</cite> (2025). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Created in <a href="https://BioRender.com/bpgwigx">BioRender, Chun, E. (2025)</a>.</figcaption>
+      </figure>
+    </article>
+<article class="software-feature" id="scetm" aria-labelledby="scetm-title">
+      <div class="software-copy">
+        <p class="eyebrow">02 / Single-cell RNA</p>
+        <h3 id="scetm-title">scETM</h3>
+        <p class="software-headline">Make cell embeddings biologically interpretable.</p>
+        <p>A generative topic model for integrating single-cell transcriptomes. scETM learns cell-topic mixtures alongside gene and topic embeddings, connecting cellular variation to interpretable gene signatures.</p>
+        <div class="text-links project-links">
+          <a href="https://github.com/hui2000ji/scETM" aria-label="scETM source code">Code</a>
+          <a href="https://doi.org/10.1038/s41467-021-25534-2" aria-label="scETM paper">Paper</a>
+
+        </div>
+        <details class="workflow">
+          <summary>How it works</summary>
+          <div data-walkthrough>
+            <div class="workflow-steps" data-step-controls hidden role="group" aria-label="scETM workflow stages"><button type="button" data-step="encode" aria-pressed="true">1. Encode</button>
+<button type="button" data-step="learn" aria-pressed="false">2. Learn</button>
+<button type="button" data-step="transfer" aria-pressed="false">3. Transfer</button></div>
+            <div class="workflow-panel" data-step-panel="encode"><h4>Represent each cell as a mixture of topics</h4><p>A variational encoder maps normalized gene-expression profiles to a low-dimensional cell-topic representation.</p></div>
+<div class="workflow-panel" data-step-panel="learn"><h4>Connect cells, genes, and topics</h4><p>A linear decoder models expression using shared gene and topic embeddings, with batch-specific effects and optional gene-set information.</p></div>
+<div class="workflow-panel" data-step-panel="transfer"><h4>Interpret signatures and map new cells</h4><p>Explore topic-associated gene signatures and pathways, or apply the trained encoder to unseen datasets.</p></div>
+          </div>
+        </details>
+      </div>
+      <figure class="software-figure">
+        <a class="expand-image" href="images/scetm-figure1.png" data-lightbox data-caption="scETM — Figure 1 · Zhao, Cai et al., Nature Communications (2021). CC BY 4.0." aria-label="Enlarge scETM figure">
+          <img src="images/scetm-figure1.png" alt="scETM Figure 1: a variational encoder learns cell-topic mixtures and a linear decoder connects topic and gene embeddings; transfer learning maps unseen cells." width="2000" height="1314" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View figure <span>↗</span></span>
+        </a>
+        <figcaption>Figure 1 · Zhao, Cai et al., <cite>Nature Communications</cite> (2021). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</figcaption>
+      </figure>
+    </article>
+<article class="software-feature" id="centtracker" aria-labelledby="centtracker-title">
+      <div class="software-copy">
+        <p class="eyebrow">03 / Live-cell imaging</p>
+        <h3 id="centtracker-title">CentTracker</h3>
+        <p class="software-headline">From microscopy movies to mitotic dynamics.</p>
+        <p>Trainable image analysis for centrosome tracking and pairing in live-cell microscopy. CentTracker combines image registration, tracking, and classification to quantify germline stem-cell mitosis in <i>C. elegans</i>.</p>
+        <div class="text-links project-links">
+          <a href="https://github.com/yifnzhao/CentTracker" aria-label="CentTracker source code">Code</a>
+          <a href="https://doi.org/10.1091/mbc.E20-11-0716" aria-label="CentTracker paper">Paper</a>
+
+        </div>
+        <details class="workflow">
+          <summary>How it works</summary>
+          <div data-walkthrough>
+            <div class="workflow-steps" data-step-controls hidden role="group" aria-label="CentTracker workflow stages"><button type="button" data-step="track" aria-pressed="true">1. Track</button>
+<button type="button" data-step="pair" aria-pressed="false">2. Pair</button>
+<button type="button" data-step="measure" aria-pressed="false">3. Measure</button></div>
+            <div class="workflow-panel" data-step-panel="track"><h4>Register the sample and follow centrosomes</h4><p>Correct sample motion, then detect and track centrosomes through the TrackMate workflow.</p></div>
+<div class="workflow-panel" data-step-panel="pair"><h4>Identify centrosomes from the same cell</h4><p>A trained random-forest classifier uses track and spot features to distinguish true centrosome pairs.</p></div>
+<div class="workflow-panel" data-step-panel="measure"><h4>Extract the dynamics of mitosis</h4><p>Score mitotic landmarks and quantify features such as spindle length and the duration of congression.</p></div>
+          </div>
+        </details>
+      </div>
+      <figure class="software-figure">
+        <a class="expand-image" href="images/centtracker-figure3.jpg" data-lightbox data-caption="CentTracker — Figure 3 · Zellag et al., Molecular Biology of the Cell (2021). CC BY-NC-SA 3.0." aria-label="Enlarge CentTracker figure">
+          <img src="images/centtracker-figure3.jpg" alt="CentTracker Figure 3: image registration, TrackMate spot detection and tracking, track-pair classification, and scoring of mitotic dynamics." width="713" height="839" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View figure <span>↗</span></span>
+        </a>
+        <figcaption>Figure 3 · Zellag et al., <cite>Molecular Biology of the Cell</cite> (2021). <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a>.</figcaption>
+      </figure>
+    </article></div>
+  </div>
+</section>
+
+
+
+<section id="news" class="section news-section" aria-labelledby="news-title">
+  <div class="container">
+    <div class="section-heading"><h2 id="news-title">News</h2></div>
+    <div class="news-layout">
+      <div class="news-feed">
+      <ol class="news-list" aria-label="Latest news, newest first"><li class="news-item"><time datetime="2026-10-28">28 Oct 2026</time><div><h3><a href="https://doi.org/10.1038/s41586-026-11190-3">Our study in Nature</a></h3><p>I co-led <cite>Perinatal elimination of genetically aberrant human cortical neurons</cite> with Diane Shao. <a href="https://hms.harvard.edu/news/abnormal-neurons-are-surprisingly-common-developing-brain-study-finds">HMS news</a> &middot; <a href="https://www.nature.com/articles/d41586-026-03444-x">Nature news &rarr;</a></p></div></li>
+<li class="news-item"><time datetime="2026-10">Oct 2026</time><div><h3><a href="events.html#event-american-society-of-human-genetics-2026">Presenting at ASHG</a></h3><p>I shared our latest genotype-to-phenotype study of clonal hematopoiesis in a poster presentation at the American Society of Human Genetics meeting in Montreal (20–24 October).</p></div></li>
+<li class="news-item"><time datetime="2026-05">May 2026</time><div><h3><a href="events.html#event-the-somatic-mutation-research-trainee-smart-journal-club-broad-institute-of-mit-and-harvard">Invited talk at the Broad Institute</a></h3><p>I presented at the Somatic MutAtion Research Trainee (SMART) Journal Club in Cambridge, USA.</p></div></li>
+<li class="news-item"><time datetime="2026-03">Mar 2026</time><div><h3><a href="events.html#event-2026-gordon-research-conference-on-single-cell-cancer-biology">Single-Cell Cancer Biology GRC &amp; GRS</a></h3><p>I gave an invited talk at the Gordon Research Conference and co-chaired the <a href="https://www.grc.org/single-cell-cancer-biology-grs-conference/2026/">2026 Gordon Research Seminar</a> with Laura Quevedo in Ventura.</p></div></li>
+<li class="news-item"><time datetime="2026-02">Feb 2026</time><div><h3><a href="events.html#event-somatic-evolution-network-seminar">Somatic Evolution Network seminar</a></h3><p>Invited talk in Cambridge, UK.</p></div></li></ol>
+      <details class="news-archive"><summary>Earlier milestones · 2025 and before</summary><ol class="news-list"><li class="news-item"><time datetime="2025-12-01">1 Dec 2025</time><div><h3><a href="https://www.ebi.ac.uk/research/coorens/">A new chapter in the UK</a></h3><p>I joined <a href="https://www.ebi.ac.uk/research/coorens/">Tim Coorens</a> and <a href="https://www.sanger.ac.uk/group/rahbari-group/">Raheleh Rahbari</a> as a postdoctoral fellow, studying mutation and clonal selection in the human germline.</p></div></li>
+<li class="news-item"><time datetime="2025">2025</time><div><h3><a href="https://www.sib.swiss/news/celebrating-excellence-meet-the-2025-sib-bioinformatics-awards-laureates">Swiss Institute of Bioinformatics PhD Paper Award recognition</a></h3><p>Honourable mention in the Bioinformatics PhD Paper Awards from the <a href="https://www.sib.swiss/">SIB Swiss Institute of Bioinformatics</a> for our work on interpretable single-cell transcriptomic embeddings, scETM.</p></div></li>
+<li class="news-item"><time datetime="2025-07-01">1 Jul 2025</time><div><h3><a href="https://doi.org/10.1038/s41467-025-60446-5">HiScanner published</a></h3><p>Our method for high-resolution, allele-specific single-cell copy-number analysis was published in <cite>Nature Communications</cite>.</p></div></li>
+<li class="news-item"><time datetime="2025-04">Apr 2025</time><div><h3><a href="https://hdl.handle.net/1721.1/162300">PhD thesis defended</a></h3><p>I defended <a href="https://hdl.handle.net/1721.1/162300"><cite>Decoding Brain Somatic Mosaicism with New Single-Cell Copy Number Analysis Methods</cite></a>, advised by <a href="https://compbio.hms.harvard.edu/">Peter J. Park</a>. Grateful to my mentors, collaborators, and labmates. <a href="#phd-photo">Photo</a> &middot; <a href="https://x.com/yifnzhao/status/1912678395445395649">Thank-yous &rarr;</a></p></div></li>
+<li class="news-item"><time datetime="2020">2020</time><div><h3>Graduated from McGill</h3><p>I graduated First Class with Distinction, earning an Honours BSc in Computer Science and Biology.</p></div></li>
+<li class="news-item"><time datetime="2017">2017</time><div><h3>Governor General’s Medal (Bronze)</h3><p>At my Centennial Secondary graduation ceremony, I received the <a href="https://www.gg.ca/en/honours/governor-generals-awards/governor-generals-academic-medal">Governor General’s Academic Medal (Bronze)</a> and the British Columbia International Student Ambassador Scholarship.</p></div></li></ol></details>
+      <a class="news-presentations-link" href="events.html">All presentations &rsaquo;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="section section--tinted" aria-labelledby="publications-title">
+  <div class="container section-split">
+    <div class="section-label">
+      <h2 id="publications-title">Selected publications</h2>
+      <p>Methods and applications in single-cell genomics.</p>
+      <p class="meta">* Equal contribution.</p>
+      <a href="publications.html">All publications &rarr;</a>
+    </div>
+    <ol class="publication-list">
+
+        <li class="publication">
+  <h3><a href="https://doi.org/10.1038/s41586-026-11190-3">Perinatal elimination of genetically aberrant human cortical neurons</a></h3>
+  <p class="meta">Shao D. D.*, <strong>Zhao Y.</strong>*, …, Park P. J., Walsh C. A.</p>
+  <p class="publication-venue"><cite>Nature</cite> · 2026</p>
+</li>
+
+        <li class="publication">
+  <h3><a href="https://doi.org/10.1038/s41467-025-60446-5">High-resolution detection of copy number alterations in single cells with HiScanner</a></h3>
+  <p class="meta"><strong>Zhao Y.</strong>, Luquette L. J., …, Johnson M. D., Park P. J.</p>
+  <p class="publication-venue"><cite>Nature Communications, 16:5477</cite> · 2025</p>
+</li>
+
+        <li class="publication">
+  <h3><a href="https://doi.org/10.1038/s41467-021-25534-2">Learning interpretable cellular and gene signature embeddings from single-cell transcriptomic data</a></h3>
+  <p class="meta"><strong>Zhao Y.</strong>*, Cai H.*, Zhang Z., Tang J., and Li Y.</p>
+  <p class="publication-venue"><cite>Nature Communications, 12:5261</cite> · 2021</p>
+</li>
+
+    </ol>
+  </div>
+</section>
+
+<section id="gallery" class="section section--tinted" aria-label="Gallery">
+  <div class="container">
+    <div class="section-heading"><p class="eyebrow">People behind the science</p></div>
+    <div class="lab-gallery">
+      <figure>
+        <a class="expand-image" href="images/coorens-lab.jpg" data-lightbox data-caption="Coorens Lab watching Much Ado About Nothing at the Cambridge Shakespeare Festival, 2026" aria-label="Enlarge Coorens lab photo">
+          <img src="images/coorens-lab.jpg" alt="Coorens Lab watching Much Ado About Nothing at the Cambridge Shakespeare Festival in 2026" width="1800" height="1350" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View photo <span>↗</span></span>
+        </a>
+        <figcaption><a href="https://www.ebi.ac.uk/research/coorens/">Coorens Lab</a> watching <cite><a href="https://cambridgeshakespeare.com/programme/much-ado-about-nothing/">Much Ado About Nothing</a></cite> at the Cambridge Shakespeare Festival, 2026.</figcaption>
+      </figure>
+      <figure>
+        <a class="expand-image" href="images/rahbari-lab.jpg" data-lightbox data-caption="With the Rahbari Lab in front of Hinxton Hall, 2026" aria-label="Enlarge Rahbari lab photo">
+          <img src="images/rahbari-lab.jpg" alt="Rahbari Lab in front of Hinxton Hall in 2026" width="1800" height="1200" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View photo <span>↗</span></span>
+        </a>
+        <figcaption>With the <a href="https://www.sanger.ac.uk/group/rahbari-group/">Rahbari Lab</a> in front of Hinxton Hall, 2026.</figcaption>
+      </figure>
+      <figure id="phd-photo"><a class="expand-image news-photo-1" href="images/news-defense-1.webp" data-lightbox data-caption="With my PhD advisor, Peter J. Park (left), after my thesis defense, April 2025" aria-label="Enlarge thesis-defense photo 1"><img src="images/news-defense-1.webp" alt="With my PhD advisor, Peter J. Park (left), after my thesis defense in April 2025" loading="lazy"><span class="image-hint" aria-hidden="true">View photo <span>↗</span></span></a><figcaption>With my PhD advisor, <a href="https://compbio.hms.harvard.edu/">Peter J. Park</a> (left), after my thesis defense, April 2025. <a href="https://x.com/yifnzhao/status/1912678395445395649">Photos &amp; thank-yous &rarr;</a></figcaption></figure>
+    </div>
+
+  </div>
+</section>
+
+<section id="music" class="section" aria-labelledby="music-title">
+  <div class="container section-split">
+    <div class="section-label">
+      <h2 id="music-title">Music</h2>
+      <p>Guzheng, double bass, and music with friends.</p>
+      <a href="music.html">Music &amp; past performances &rsaquo;</a>
+    </div>
+    <a class="music-link" href="https://music.apple.com/gb/playlist/productivity/pl.u-Ymb0vd5Igr90dPm">
+      <span class="music-symbol" aria-hidden="true">♫</span>
+      <span><strong>Productivity</strong><span class="music-caption">Listen on Apple Music &rarr;</span></span>
+    </a>
+  </div>
+</section>
+    </main>
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>&copy; 2026 Yifan Zhao</p>
+      </div>
+    </footer>
+
+    <dialog id="image-viewer" class="image-viewer" aria-label="Image viewer" aria-describedby="viewer-caption">
+      <button type="button" class="viewer-close" data-viewer-close aria-label="Close image">Close <span aria-hidden="true">×</span></button>
+      <img id="viewer-image" alt="">
+      <p id="viewer-caption"></p>
+    </dialog>
+    <script src="assets/site.js" defer></script>
+  </body>
+</html>
