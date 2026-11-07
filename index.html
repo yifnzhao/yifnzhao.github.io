@@ -16,7 +16,7 @@
     <meta property="og:image" content="https://yifnzhao.github.io/images/profile_pic_yifanzhao.jpg">
     <meta property="og:image:alt" content="Portrait of Yifan Zhao">
     <meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="assets/site.css?v=10">
+    <link rel="stylesheet" href="assets/site.css?v=13">
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -25,10 +25,9 @@
         <a class="site-brand" href="index.html">Yifan Zhao</a>
         <nav class="site-nav" aria-label="Main navigation">
           <a href="index.html#about" aria-current="page">About</a>
-          <a href="index.html#software">Software</a>
-          <a href="index.html#news">News</a>
-          <a href="events.html">Presentations</a>
+          <a href="index.html#projects">Projects</a>
           <a href="publications.html">Publications</a>
+          <a href="index.html#news">News</a>
 
           <a href="index.html#gallery">Gallery</a>
           <a href="music.html">Music</a>
@@ -57,15 +56,37 @@
   </div>
 </section>
 
-<section id="software" class="section section--tinted" aria-labelledby="software-title">
+<section id="projects" class="section" aria-labelledby="projects-title">
+  <span id="software" aria-hidden="true"></span>
   <div class="container">
     <div class="section-heading software-heading">
-      <div><p class="eyebrow">Methods &amp; open-source tools</p><h2 id="software-title">Software</h2></div>
-      <p>From single-cell genomes to transcriptomes and live imaging.</p>
+      <div><p class="eyebrow">Research &amp; open-source tools</p><h2 id="projects-title">Projects</h2></div>
+      <p>Somatic mutation, clonal fate, and the tools to study them.</p>
     </div>
-    <div class="software-features"><article class="software-feature" id="hiscanner" aria-labelledby="hiscanner-title">
+    <div class="software-features"><article class="software-feature featured-project" id="brain-somatic-mosaicism" aria-labelledby="brain-project-title">
       <div class="software-copy">
-        <p class="eyebrow">01 / Single-cell DNA</p>
+        <p class="eyebrow">01 / Featured study · Nature, 2026</p>
+        <h3 id="brain-project-title">Brain somatic mosaicism</h3>
+        <p class="software-headline">Genome quality control around birth.</p>
+        <p>How does the developing brain respond to genetically abnormal neurons? In work co-led with Diane Shao, we used single-cell genomics to study copy-number alterations in human cortical neurons before and after birth.</p>
+        <p>We found that neurons with widespread copy-number alterations are common before birth but largely eliminated around the time of birth, suggesting a developmental process that selects for genome integrity.</p>
+        <div class="text-links project-links">
+          <a href="https://doi.org/10.1038/s41586-026-11190-3">Paper</a>
+          <a href="https://hms.harvard.edu/news/abnormal-neurons-are-surprisingly-common-developing-brain-study-finds">HMS news</a>
+          <a href="https://www.nature.com/articles/d41586-026-03444-x">Nature news</a>
+        </div>
+      </div>
+      <figure class="software-figure">
+        <a class="expand-image" href="images/nature-brain-figure5.png" data-lightbox data-caption="Figure 5 · Shao, Zhao et al., Nature (2026). Summary of copy-number abnormalities across life stages. CC BY 4.0. Created with BioRender." aria-label="Enlarge Nature study summary figure">
+          <img src="images/nature-brain-figure5.png" alt="Summary of neuronal copy-number abnormalities before and after birth: neurons with widespread alterations are frequent prenatally and decline sharply around birth, alongside neurogenesis, programmed cell death, and synaptic pruning." width="2167" height="1468" loading="lazy">
+          <span class="image-hint" aria-hidden="true">View figure <span>↗</span></span>
+        </a>
+        <figcaption><a href="https://www.nature.com/articles/s41586-026-11190-3/figures/5">Figure 5</a> · Shao, Zhao et al., <cite>Nature</cite> (2026). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Created with BioRender.</figcaption>
+      </figure>
+    </article>
+<article class="software-feature" id="hiscanner" aria-labelledby="hiscanner-title">
+      <div class="software-copy">
+        <p class="eyebrow">02 / Single-cell DNA</p>
         <h3 id="hiscanner-title">HiScanner</h3>
         <p class="software-headline">Resolving copy-number changes, one cell at a time.</p>
         <p>High-resolution, allele-specific copy-number analysis from single-cell whole-genome sequencing. HiScanner combines read depth and haplotype information to reveal somatic copy-number alterations and cellular heterogeneity.</p>
@@ -87,16 +108,16 @@
         </details>
       </div>
       <figure class="software-figure">
-        <a class="expand-image" href="images/hiscanner-figure1.png" data-lightbox data-caption="HiScanner — Figure 1 · Zhao et al., Nature Communications (2025). CC BY 4.0. Created in BioRender, Chun, E. (2025)." aria-label="Enlarge HiScanner figure">
+        <a class="expand-image" href="images/hiscanner-figure1.png" data-lightbox data-caption="HiScanner — Figure 1 · Zhao et al., Nature Communications (2025). CC BY 4.0. Created with BioRender." aria-label="Enlarge HiScanner figure">
           <img src="images/hiscanner-figure1.png" alt="HiScanner Figure 1: preprocessing, allelic dropout analysis, joint segmentation, and allele-specific copy-number calling." width="2000" height="1446" loading="lazy">
           <span class="image-hint" aria-hidden="true">View figure <span>↗</span></span>
         </a>
-        <figcaption>Figure 1 · Zhao et al., <cite>Nature Communications</cite> (2025). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Created in <a href="https://BioRender.com/bpgwigx">BioRender, Chun, E. (2025)</a>.</figcaption>
+        <figcaption>Figure 1 · Zhao et al., <cite>Nature Communications</cite> (2025). <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Created with BioRender.</figcaption>
       </figure>
     </article>
 <article class="software-feature" id="scetm" aria-labelledby="scetm-title">
       <div class="software-copy">
-        <p class="eyebrow">02 / Single-cell RNA</p>
+        <p class="eyebrow">03 / Single-cell RNA</p>
         <h3 id="scetm-title">scETM</h3>
         <p class="software-headline">Make cell embeddings biologically interpretable.</p>
         <p>A generative topic model for integrating single-cell transcriptomes. scETM learns cell-topic mixtures alongside gene and topic embeddings, connecting cellular variation to interpretable gene signatures.</p>
@@ -127,7 +148,7 @@
     </article>
 <article class="software-feature" id="centtracker" aria-labelledby="centtracker-title">
       <div class="software-copy">
-        <p class="eyebrow">03 / Live-cell imaging</p>
+        <p class="eyebrow">04 / Live-cell imaging</p>
         <h3 id="centtracker-title">CentTracker</h3>
         <p class="software-headline">From microscopy movies to mitotic dynamics.</p>
         <p>Trainable image analysis for centrosome tracking and pairing in live-cell microscopy. CentTracker combines image registration, tracking, and classification to quantify germline stem-cell mitosis in <i>C. elegans</i>.</p>
@@ -160,28 +181,6 @@
 </section>
 
 
-
-<section id="news" class="section news-section" aria-labelledby="news-title">
-  <div class="container">
-    <div class="section-heading"><h2 id="news-title">News</h2></div>
-    <div class="news-layout">
-      <div class="news-feed">
-      <ol class="news-list" aria-label="Latest news, newest first"><li class="news-item"><time datetime="2026-10-28">28 Oct 2026</time><div><h3><a href="https://doi.org/10.1038/s41586-026-11190-3">Our study in Nature</a></h3><p>I co-led <cite>Perinatal elimination of genetically aberrant human cortical neurons</cite> with Diane Shao. <a href="https://hms.harvard.edu/news/abnormal-neurons-are-surprisingly-common-developing-brain-study-finds">HMS news</a> &middot; <a href="https://www.nature.com/articles/d41586-026-03444-x">Nature news &rarr;</a></p></div></li>
-<li class="news-item"><time datetime="2026-10">Oct 2026</time><div><h3><a href="events.html#event-american-society-of-human-genetics-2026">Clonal hematopoiesis at ASHG</a></h3><p>I shared our latest work linking genotype to phenotype in clonal hematopoiesis at ASHG in Montreal this fall.</p></div></li>
-<li class="news-item"><time datetime="2026-05">May 2026</time><div><h3><a href="events.html#event-the-somatic-mutation-research-trainee-smart-journal-club-broad-institute-of-mit-and-harvard">Journal club at the Broad Institute</a></h3><p>Diane Shao and I co-presented our work on copy-number alterations in the fetal brain at the Somatic MutAtion Research Trainee (SMART) Journal Club at the Broad Institute.</p></div></li>
-<li class="news-item"><time datetime="2026-03">Mar 2026</time><div><h3><a href="events.html#event-2026-gordon-research-conference-on-single-cell-cancer-biology">Single-Cell Cancer Biology GRC &amp; GRS</a></h3><p>I shared my PhD research at the Gordon Research Conference on Single-Cell Cancer Biology and co-chaired the <a href="https://www.grc.org/single-cell-cancer-biology-grs-conference/2026/">2026 Gordon Research Seminar</a> with Laura Quevedo in Ventura.</p></div></li>
-<li class="news-item"><time datetime="2026-02">Feb 2026</time><div><h3><a href="events.html#event-somatic-evolution-network-seminar">Somatic Evolution Network seminar</a></h3><p>I shared our work on copy-number alterations in the fetal brain at the Somatic Evolution Network seminar in Cambridge, UK.</p></div></li></ol>
-      <details class="news-archive"><summary>Earlier milestones · 2025 and before</summary><ol class="news-list"><li class="news-item"><time datetime="2025-12-01">1 Dec 2025</time><div><h3><a href="https://www.ebi.ac.uk/research/coorens/">A new chapter in the UK</a></h3><p>I joined <a href="https://www.ebi.ac.uk/research/coorens/">Tim Coorens</a> and <a href="https://www.sanger.ac.uk/group/rahbari-group/">Raheleh Rahbari</a> as a postdoctoral fellow, studying mutation and clonal selection in the human germline.</p></div></li>
-<li class="news-item"><time datetime="2025">2025</time><div><h3><a href="https://www.sib.swiss/news/celebrating-excellence-meet-the-2025-sib-bioinformatics-awards-laureates">Swiss Institute of Bioinformatics PhD Paper Award recognition</a></h3><p>Our work on interpretable single-cell transcriptomic embeddings, scETM, received an honourable mention in the Bioinformatics PhD Paper Awards from the <a href="https://www.sib.swiss/">SIB Swiss Institute of Bioinformatics</a>.</p></div></li>
-<li class="news-item"><time datetime="2025-07-01">1 Jul 2025</time><div><h3><a href="https://doi.org/10.1038/s41467-025-60446-5">HiScanner published</a></h3><p>HiScanner, our method for high-resolution, allele-specific copy-number analysis of single cells, was published in <cite>Nature Communications</cite>.</p></div></li>
-<li class="news-item"><time datetime="2025-04">Apr 2025</time><div><h3><a href="https://hdl.handle.net/1721.1/162300">PhD thesis defended</a></h3><p>I defended <a href="https://hdl.handle.net/1721.1/162300"><cite>Decoding Brain Somatic Mosaicism with New Single-Cell Copy Number Analysis Methods</cite></a>, advised by Peter J. Park. I’m grateful to my mentors, collaborators, and labmates for their support. <a href="#phd-photo">Photo</a> &middot; <a href="https://x.com/yifnzhao/status/1912678395445395649">Thank-yous &rarr;</a></p></div></li>
-<li class="news-item"><time datetime="2020">2020</time><div><h3>Graduated from McGill</h3><p>I graduated from McGill with an Honours BSc in Computer Science and Biology, First Class with Distinction.</p></div></li>
-<li class="news-item"><time datetime="2017">2017</time><div><h3>Governor General’s Medal (Bronze)</h3><p>At my Centennial Secondary graduation ceremony, I received the <a href="https://www.gg.ca/en/honours/governor-generals-awards/governor-generals-academic-medal">Governor General’s Academic Medal (Bronze)</a> and the British Columbia International Student Ambassador Scholarship.</p></div></li></ol></details>
-      <a class="news-presentations-link" href="events.html">All presentations &rsaquo;</a>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section id="publications" class="section section--tinted" aria-labelledby="publications-title">
   <div class="container section-split">
@@ -224,6 +223,28 @@
 </li>
 
     </ol>
+  </div>
+</section>
+
+<section id="news" class="section news-section" aria-labelledby="news-title">
+  <div class="container">
+    <div class="section-heading"><h2 id="news-title">News</h2></div>
+    <div class="news-layout">
+      <div class="news-feed">
+      <ol class="news-list" aria-label="Latest news, newest first"><li class="news-item"><time datetime="2026-10-28">28 Oct 2026</time><div><h3><a href="https://doi.org/10.1038/s41586-026-11190-3">Our study in Nature</a></h3><p>I co-led <cite>Perinatal elimination of genetically aberrant human cortical neurons</cite> with Diane Shao. <a href="https://hms.harvard.edu/news/abnormal-neurons-are-surprisingly-common-developing-brain-study-finds">HMS news</a> &middot; <a href="https://www.nature.com/articles/d41586-026-03444-x">Nature news &rarr;</a></p></div></li>
+<li class="news-item"><time datetime="2026-10">Oct 2026</time><div><h3><a href="events.html#event-american-society-of-human-genetics-2026">Clonal hematopoiesis at ASHG</a></h3><p>I shared our latest work linking genotype to phenotype in clonal hematopoiesis at ASHG in Montreal this fall.</p></div></li>
+<li class="news-item"><time datetime="2026-05">May 2026</time><div><h3><a href="events.html#event-the-somatic-mutation-research-trainee-smart-journal-club-broad-institute-of-mit-and-harvard">Journal club at the Broad Institute</a></h3><p>Diane Shao and I co-presented our work on copy-number alterations in the fetal brain at the Somatic MutAtion Research Trainee (SMART) Journal Club at the Broad Institute.</p></div></li>
+<li class="news-item"><time datetime="2026-03">Mar 2026</time><div><h3><a href="events.html#event-2026-gordon-research-conference-on-single-cell-cancer-biology">Single-Cell Cancer Biology GRC &amp; GRS</a></h3><p>I shared my PhD research at the Gordon Research Conference on Single-Cell Cancer Biology and co-chaired the <a href="https://www.grc.org/single-cell-cancer-biology-grs-conference/2026/">2026 Gordon Research Seminar</a> with Laura Quevedo in Ventura.</p></div></li>
+<li class="news-item"><time datetime="2026-02">Feb 2026</time><div><h3><a href="events.html#event-somatic-evolution-network-seminar">Somatic Evolution Network seminar</a></h3><p>I shared our work on copy-number alterations in the fetal brain at the Somatic Evolution Network seminar in Cambridge, UK.</p></div></li></ol>
+      <details class="news-archive"><summary>Earlier milestones · 2025 and before</summary><ol class="news-list"><li class="news-item"><time datetime="2025-12-01">1 Dec 2025</time><div><h3><a href="https://www.ebi.ac.uk/research/coorens/">A new chapter in the UK</a></h3><p>I joined <a href="https://www.ebi.ac.uk/research/coorens/">Tim Coorens</a> and <a href="https://www.sanger.ac.uk/group/rahbari-group/">Raheleh Rahbari</a> as a postdoctoral fellow, studying mutation and clonal selection in the human germline.</p></div></li>
+<li class="news-item"><time datetime="2025">2025</time><div><h3><a href="https://www.sib.swiss/news/celebrating-excellence-meet-the-2025-sib-bioinformatics-awards-laureates">Swiss Institute of Bioinformatics PhD Paper Award recognition</a></h3><p>Our work on interpretable single-cell transcriptomic embeddings, scETM, received an honourable mention in the Bioinformatics PhD Paper Awards from the <a href="https://www.sib.swiss/">SIB Swiss Institute of Bioinformatics</a>.</p></div></li>
+<li class="news-item"><time datetime="2025-07-01">1 Jul 2025</time><div><h3><a href="https://doi.org/10.1038/s41467-025-60446-5">HiScanner published</a></h3><p>HiScanner, our method for high-resolution, allele-specific copy-number analysis of single cells, was published in <cite>Nature Communications</cite>.</p></div></li>
+<li class="news-item"><time datetime="2025-04">Apr 2025</time><div><h3><a href="https://hdl.handle.net/1721.1/162300">PhD thesis defended</a></h3><p>I defended <a href="https://hdl.handle.net/1721.1/162300"><cite>Decoding Brain Somatic Mosaicism with New Single-Cell Copy Number Analysis Methods</cite></a>, advised by Peter J. Park. I’m grateful to my mentors, collaborators, and labmates for their support. <a href="#phd-photo">Photo</a> &middot; <a href="https://x.com/yifnzhao/status/1912678395445395649">Thank-yous &rarr;</a></p></div></li>
+<li class="news-item"><time datetime="2020">2020</time><div><h3>Graduated from McGill</h3><p>I graduated from McGill with an Honours BSc in Computer Science and Biology, First Class with Distinction.</p></div></li>
+<li class="news-item"><time datetime="2017">2017</time><div><h3>Governor General’s Medal (Bronze)</h3><p>At my Centennial Secondary graduation ceremony, I received the <a href="https://www.gg.ca/en/honours/governor-generals-awards/governor-generals-academic-medal">Governor General’s Academic Medal (Bronze)</a> and the British Columbia International Student Ambassador Scholarship.</p></div></li></ol></details>
+      <a class="news-presentations-link" href="events.html">All presentations &rsaquo;</a>
+      </div>
+    </div>
   </div>
 </section>
 

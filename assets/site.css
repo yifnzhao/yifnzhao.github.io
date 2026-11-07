@@ -1,10 +1,10 @@
 :root {
-  --paper: #fcfaf6;
-  --panel: #f2ede4;
-  --ink: #302c28;
-  --muted: #6e655d;
-  --accent: #784c36;
-  --line: #ded6ca;
+  --paper: #ffffff;
+  --panel: #f0f5f9;
+  --ink: #243238;
+  --muted: #58676d;
+  --accent: #176c70;
+  --line: #d8e3e4;
   color-scheme: light;
   scroll-padding-top: 8rem;
 }
@@ -653,7 +653,7 @@ main:focus { outline: none; }
   gap: 48px;
   align-items: start;
   padding-block: 52px;
-  border-top: 1px solid #d1c6b7;
+  border-top: 1px solid var(--line);
   scroll-margin-top: 6rem;
 }
 .software-feature:first-child { border-top: 2px solid var(--accent); }
@@ -673,7 +673,7 @@ main:focus { outline: none; }
   border: 0;
   background: transparent;
 }
-.software-figure img { width: 100%; max-height: 460px; object-fit: contain; mix-blend-mode: multiply; }
+.software-figure img { width: 100%; max-height: 460px; object-fit: contain; mix-blend-mode: normal; }
 .software-figure figcaption {
   margin-top: 14px;
   color: var(--muted);
@@ -690,7 +690,7 @@ main:focus { outline: none; }
   align-items: center;
   gap: 16px;
   padding: 5px 10px;
-  background: rgba(252,250,246,.96);
+  background: rgba(255,255,255,.96);
   color: var(--ink);
   border: 1px solid var(--line);
   border-radius: 4px;
@@ -811,3 +811,8 @@ main:focus { outline: none; }
 }
 @media (prefers-reduced-motion: reduce) { .paper-preview img { transition: none; } }
 @media print { .paper-preview { display: none; } .publication--preview { display: block; } }
+
+.featured-project .software-figure img { max-height: 560px; }
+
+/* White project canvas preserves the original figure colours without blending. */
+#projects { background: #ffffff; }
