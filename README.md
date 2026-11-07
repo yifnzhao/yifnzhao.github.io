@@ -18,4 +18,4 @@ Open http://127.0.0.1:8765/. No build step is required. GitHub Pages serves the 
 
 Software figures retain attribution and license links in their captions. HiScanner and scETM figures are reproduced under CC BY 4.0, with HiScanner’s BioRender credit retained. The CentTracker figure is reproduced under CC BY-NC-SA 3.0. Source figures are unchanged; CSS blends their backgrounds with the page. Concert posters and photos include source links where applicable.
 
-The previous website’s source files and license remain in the repository history and existing directories.
+The obsolete Jekyll theme, sample content, build tools, and unused assets have been removed. The MIT license is retained. The existing `files/cv.pdf` download is preserved so its public URL continues to work. Earlier versions remain available in Git history.
