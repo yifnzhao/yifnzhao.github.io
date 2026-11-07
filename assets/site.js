@@ -135,9 +135,56 @@
     });
   }
 
+  function enhanceSectionNavigation() {
+    const navigation = document.querySelector(".site-nav");
+    const header = document.querySelector(".site-header");
+    if (!navigation || !document.getElementById("projects")) return;
+
+    const items = Array.from(navigation.querySelectorAll("a[data-section]")).map((link) => ({
+      link,
+      section: document.getElementById(link.dataset.section),
+    })).filter((item) => item.section);
+    if (!items.length) return;
+
+    let scheduled = false;
+    function update() {
+      scheduled = false;
+      const readingLine = (header?.getBoundingClientRect().bottom || 0) +
+        Math.min(100, window.innerHeight * 0.15);
+      let active = items[0];
+      for (const item of items) {
+        if (item.section.getBoundingClientRect().top <= readingLine) active = item;
+      }
+      // The final section may be too short to reach the reading line.
+      if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 2) {
+        active = items[items.length - 1];
+      }
+      for (const item of items) {
+        if (item === active) item.link.setAttribute("aria-current", "location");
+        else item.link.removeAttribute("aria-current");
+      }
+    }
+    function schedule() {
+      if (scheduled) return;
+      scheduled = true;
+      window.requestAnimationFrame(update);
+    }
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+    window.addEventListener("hashchange", schedule);
+    window.addEventListener("pageshow", schedule);
+    if (typeof ResizeObserver !== "undefined") {
+      const observer = new ResizeObserver(schedule);
+      observer.observe(document.body);
+      if (header) observer.observe(header);
+    }
+    update();
+  }
+
   function initialize() {
     enhanceImageViewer();
     enhanceWalkthroughs();
+    enhanceSectionNavigation();
   }
 
   if (document.readyState === "loading") {

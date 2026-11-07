@@ -136,6 +136,7 @@ p:last-child {
   color: var(--muted);
   text-decoration: none;
   white-space: nowrap;
+  text-underline-offset: .24em;
 }
 
 .site-nav a:hover,
